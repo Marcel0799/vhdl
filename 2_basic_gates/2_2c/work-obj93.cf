@@ -1,0 +1,7 @@
+v 3
+file . ".\orgate_tb.vhdl" "20200914201226.000" "20200915165850.724":
+  entity orgate_tb at 1( 0) + 0 on 13;
+  architecture test of orgate_tb at 8( 88) + 0 on 14;
+file . ".\orgate.vhdl" "20200915145808.000" "20200915165844.119":
+  entity orgate at 2( 2) + 0 on 11;
+  architecture rtl of orgate at 13( 185) + 0 on 12;

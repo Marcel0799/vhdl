@@ -1,0 +1,43 @@
+v 3
+file . ".\nxorgate_tb.vhdl" "20200915143820.000" "20200915163905.764":
+  entity nxorgate_tb at 1( 0) + 0 on 37;
+  architecture test of nxorgate_tb at 8( 92) + 0 on 38;
+file . ".\xorgate_tb.vhdl" "20200915143426.000" "20200915163443.204":
+  entity xorgate_tb at 1( 0) + 0 on 33;
+  architecture test of xorgate_tb at 8( 90) + 0 on 34;
+file . ".\norgate_tb.vhdl" "20200915142314.000" "20200915162403.759":
+  entity norgate_tb at 1( 0) + 0 on 29;
+  architecture test of norgate_tb at 8( 90) + 0 on 30;
+file . ".\nandgate.vhdl" "20200915141144.000" "20200915161854.685":
+  entity nandgate at 2( 2) + 0 on 25;
+  architecture rtl of nandgate at 14( 193) + 0 on 26;
+file . ".\notgate_tb.vhdl" "20200915135550.000" "20200915155600.278":
+  entity notgate_tb at 1( 0) + 0 on 21;
+  architecture test of notgate_tb at 8( 90) + 0 on 22;
+file . ".\orgate_tb.vhdl" "20200914201226.000" "20200915153200.260":
+  entity orgate_tb at 1( 0) + 0 on 17;
+  architecture test of orgate_tb at 8( 88) + 0 on 18;
+file . ".\andgate_tb.vhdl" "20200913164636.000" "20200915152723.679":
+  entity andgate_tb at 1( 0) + 0 on 13;
+  architecture test of andgate_tb at 9( 191) + 0 on 14;
+file . ".\andgate.vhdl" "20200913164634.000" "20200915152706.715":
+  entity andgate at 5( 237) + 0 on 11;
+  architecture rtl of andgate at 29( 1050) + 0 on 12;
+file . ".\orgate.vhdl" "20200914200710.000" "20200915153155.656":
+  entity orgate at 2( 2) + 0 on 15;
+  architecture rtl of orgate at 13( 185) + 0 on 16;
+file . ".\notgate.vhdl" "20200915135320.000" "20200915155327.868":
+  entity notgate at 2( 2) + 0 on 19;
+  architecture rtl of notgate at 12( 160) + 0 on 20;
+file . ".\nandgate_tb.vhdl" "20200915141818.000" "20200915161850.972":
+  entity nandgate_tb at 1( 0) + 0 on 23;
+  architecture test of nandgate_tb at 7( 90) + 0 on 24;
+file . ".\norgate.vhdl" "20200915142202.000" "20200915162358.955":
+  entity norgate at 1( 0) + 0 on 27;
+  architecture rtl of norgate at 12( 186) + 0 on 28;
+file . ".\xorgate.vhdl" "20200915143318.000" "20200915163330.876":
+  entity xorgate at 2( 2) + 0 on 31;
+  architecture rtl of xorgate at 13( 188) + 0 on 32;
+file . ".\nxorgate.vhdl" "20200915143736.000" "20200915163856.033":
+  entity nxorgate at 2( 2) + 0 on 35;
+  architecture rtl of nxorgate at 13( 191) + 0 on 36;

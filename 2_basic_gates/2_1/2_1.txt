@@ -1,0 +1,40 @@
+a.
+Cond(0,Z) = 0 
+Aus dem Hasse Diagramm kann man: Cond(0,W)=0, Cond(W,L)=W, Cond(L,Z) = L entnehmen, daraus folgt: 0 ≥ W ≥ L ≥ Z => 0 ≥ Z also gilt die Behauptung.
+
+
+b. 
+Weitere Zustände: 
+"U" -> Uninitialized
+"-" -> Don't care
+
+Wofür werden sie gebraucht:
+"U" -> Wenn eine Zustand noch initialisiert wurde
+"-" -> Wenn ein Zustand egal ist
+
+Anwendungsfälle für Don't Care:
+1. Ein And-Gatter hat als einen Eingang eine X. Dann ist der andere Eingang des Gatters egal, da dieses sowieso immer X ausgeben wird. 
+2. Ein Or-Gatter hat als einen Eingang eine X. Dann ist der andere Eingang des Gatters egal, da dieses sowieso immer X ausgeben wird. 
+
+Was ist in der Datei deifiniert?:
+In der Datei sind die Spezifikationen und Eigenschaften der "IEEE.std_logic_1164" Biblothek für VHDL festgelegt.
+
+
+c.
+X And 0 = 0
+X Or 0 = X
+X And 1 = X
+X Or 1 = 1
+1 And 0 = 0
+1 Or 0 = 1
+0 And W = 0
+0 Or W = X
+1 And W = X
+1 Or W = 1
+W And L = 0
+W Or L = X
+W And H = X
+W Or H = L
+L And H = X 
+L Or H = L
+

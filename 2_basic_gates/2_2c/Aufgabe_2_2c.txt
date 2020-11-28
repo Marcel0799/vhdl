@@ -1,0 +1,17 @@
+2.2c von Marcel Bienia(209744)
+
+
+Ausgesuchtes Gatter: OR
+
+Verzögerung der Ausgabe des Gatters mit Delay Anweisung "after": 2ns
+
+Warum sind Delays in digitalen Schaltungen wichtig: 
+Da nicht oftmals nicht sofort die korrekte Spanung an den Knoten anliegt. Dies kann dazu führen das aus dem analogen Signal der falsche digitale Zustand gelesen wird. Deswegen sollte man immer etwas warten, bis die korrekten Spannungen anliegen und dann erst den Zustand der Schaltung bestimmen/ausgeben.
+
+Trägheitsverzögerung:
+(Zum Beispiel: Output <= NOT input AFTER 10 ns;)
+Soll verhinder das kleine Spanungsimpulse nicht mit übertragen werden. Signal wird also immer in einer Verzögerung übertragen und Impulse abgefangen.
+
+Transportdelay:
+(Zum Beispiel: Output <= TRANSPORT NOT input AFTER 10 ns;)
+Verändert das Signal nicht. Das Transportdelay übertragt 1 zu 1 das Signal, nur mit der gewünschten Verzögerung. 
