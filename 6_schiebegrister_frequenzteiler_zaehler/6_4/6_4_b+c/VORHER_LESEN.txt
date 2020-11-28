@@ -1,0 +1,16 @@
+In diesem Ordner gibt es 7 Datei 
+1. Diese
+2. skript.txt -> um das komplieren der vhdl sach zu beschleunigen
+3. jk.vhdl -> meine implimentiertung eines jk flipflop
+4. jk_tb.vhdl -> mein test für meinen jk flipflop
+5. zaehler.vhdl -> das ist meine eigentliche AUFGABE 6_4 b UND c
+6. zaehler_tb.vhdl -> die testbench zum kontrollieren des zaehlers
+SCHAUEN SIE SICH BITTE DIE KOMMENTARE IN DER TESTBENCH AN. DARIN SIND DIE MEISTEN TESTFÄLLE ERKLÄRT UND MANN KANN DAN IN DER VCD DATEI (7.) DAS KORREKTE ABLAUFEN MEINES ZAEHLERS ERKENNEN. 
+
+ES HANDELT SICH BEI MEINER IMPLIMENTIERUNG DES ZAEHLERS UM KEINE PERFEKTE IMPLIMENTIERUNG. IM AUSGANGSZUSTAND GEBEN DIE FLIP FLOP NOCH KEIN SIGNAL RAUS, DIE MÜSSEN SICH ERST EINE TAKT-RUNDE (4 TAKTE) WARM LAUFEN. DANN BERECHET DER ZAEHLER ZU 100% KORREKT.
+
+AUFGABE 6-4-C: DER ZAEHLER WURDE SOFORT MIT EINEM SYNCHRONEN RESET GEBAUT, DA IN 6-4-B NICHT WEITER AUSDRÜCKLICH VERLANGT WURDE, DAS RESET UNSYNCHRON SEIN SOLL, WURDE RESET VON ANFANG AN SYNCHRON IMPLIMENTIERT. (SCHAUEN SIE IN DATEI 6. UND 7. DORT WURDE DER SYNCHRONE RESET SOWOHL VORWÄRTS ALS AUCH RÜCKWÄRTS GETESTET.) 
+
+AUFGABE 6-4-B: UNTERSCHIEDE ZWISCHEN JK-FLIPFLOP UND D-FLIPFLOP:
+ein D-FlipFlop(dFF) unterscheidet nur zwischen set und reset, bei jedem takt kann einer dieser möglichkeiten gewählt werden,
+ein JK-FlipFlop kann sowohl set (j=1 & k=0) als auch reset (j=0 & k=1). Allerdings kann das JK sich auch den letzen Zustand über takte hinweg merken mit j=0 & k=0. Als letze zustatz funktion kann das jk sein output auch noch invertieren, wenn der input j=1 & k=1 anliegt. 

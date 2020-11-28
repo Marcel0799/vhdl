@@ -1,0 +1,4 @@
+Bei diesem Programm wird über input eine zahl seriell eingegeben. Bei JEDER änderung des Pegels von Clock wird das Input ausgewertet. Y ist = 1 wenn der bitstring 10101 gefunden wurde. 
+Zur kontrolle können sie sich die ausgabe.vcd ansehen oder das programm selber mittels des skript ausführe. 
+
+PS: wenn sie es ausführen schauen sie mal in die console, da gibt es eine wietere ausgabe.

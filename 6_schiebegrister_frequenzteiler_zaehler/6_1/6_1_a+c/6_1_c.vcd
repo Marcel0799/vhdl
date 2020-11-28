@@ -1,0 +1,747 @@
+$date
+  Tue Sep 29 13:40:28 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module sipo_tb $end
+$var reg 1 ! clock $end
+$var reg 1 " d $end
+$var reg 1 # clear $end
+$var reg 1 $ q1 $end
+$var reg 1 % q2 $end
+$var reg 1 & q3 $end
+$var reg 1 ' q4 $end
+$var reg 1 ( q5 $end
+$var reg 1 ) q6 $end
+$var reg 1 * q7 $end
+$var reg 1 + q8 $end
+$scope module schieberegister $end
+$var reg 1 , clock $end
+$var reg 1 - d $end
+$var reg 1 . clear $end
+$var reg 1 / q1 $end
+$var reg 1 0 q2 $end
+$var reg 1 1 q3 $end
+$var reg 1 2 q4 $end
+$var reg 1 3 q5 $end
+$var reg 1 4 q6 $end
+$var reg 1 5 q7 $end
+$var reg 1 6 q8 $end
+$var reg 1 7 x1 $end
+$var reg 1 8 x2 $end
+$var reg 1 9 x3 $end
+$var reg 1 : x4 $end
+$var reg 1 ; x5 $end
+$var reg 1 < x6 $end
+$var reg 1 = x7 $end
+$var reg 1 > x8 $end
+$scope module ff1 $end
+$var reg 1 ? clk $end
+$var reg 1 @ d $end
+$var reg 1 A reset $end
+$var reg 1 B q $end
+$var reg 1 C nq $end
+$var reg 1 D zwischenq $end
+$upscope $end
+$scope module ff2 $end
+$var reg 1 E clk $end
+$var reg 1 F d $end
+$var reg 1 G reset $end
+$var reg 1 H q $end
+$var reg 1 I nq $end
+$var reg 1 J zwischenq $end
+$upscope $end
+$scope module ff3 $end
+$var reg 1 K clk $end
+$var reg 1 L d $end
+$var reg 1 M reset $end
+$var reg 1 N q $end
+$var reg 1 O nq $end
+$var reg 1 P zwischenq $end
+$upscope $end
+$scope module ff4 $end
+$var reg 1 Q clk $end
+$var reg 1 R d $end
+$var reg 1 S reset $end
+$var reg 1 T q $end
+$var reg 1 U nq $end
+$var reg 1 V zwischenq $end
+$upscope $end
+$scope module ff5 $end
+$var reg 1 W clk $end
+$var reg 1 X d $end
+$var reg 1 Y reset $end
+$var reg 1 Z q $end
+$var reg 1 [ nq $end
+$var reg 1 \ zwischenq $end
+$upscope $end
+$scope module ff6 $end
+$var reg 1 ] clk $end
+$var reg 1 ^ d $end
+$var reg 1 _ reset $end
+$var reg 1 ` q $end
+$var reg 1 a nq $end
+$var reg 1 b zwischenq $end
+$upscope $end
+$scope module ff7 $end
+$var reg 1 c clk $end
+$var reg 1 d d $end
+$var reg 1 e reset $end
+$var reg 1 f q $end
+$var reg 1 g nq $end
+$var reg 1 h zwischenq $end
+$upscope $end
+$scope module ff8 $end
+$var reg 1 i clk $end
+$var reg 1 j d $end
+$var reg 1 k reset $end
+$var reg 1 l q $end
+$var reg 1 m nq $end
+$var reg 1 n zwischenq $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+U#
+U$
+U%
+U&
+U'
+U(
+U)
+U*
+U+
+0,
+1-
+U.
+U/
+U0
+U1
+U2
+U3
+U4
+U5
+U6
+U7
+U8
+U9
+U:
+U;
+U<
+U=
+U>
+0?
+1@
+UA
+UB
+UC
+UD
+0E
+UF
+UG
+UH
+UI
+UJ
+0K
+UL
+UM
+UN
+UO
+UP
+0Q
+UR
+US
+UT
+UU
+UV
+0W
+UX
+UY
+UZ
+U[
+U\
+0]
+U^
+U_
+U`
+Ua
+Ub
+0c
+Ud
+Ue
+Uf
+Ug
+Uh
+0i
+Uj
+Uk
+Ul
+Um
+Un
+#5000000
+1!
+1$
+1,
+1/
+17
+1?
+1B
+0C
+1D
+1E
+1F
+1K
+1Q
+1W
+1]
+1c
+1i
+#10000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#15000000
+1!
+1%
+1,
+10
+18
+1?
+1E
+1H
+0I
+1J
+1K
+1L
+1Q
+1W
+1]
+1c
+1i
+#20000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#25000000
+1!
+1&
+1,
+11
+19
+1?
+1E
+1K
+1N
+0O
+1P
+1Q
+1R
+1W
+1]
+1c
+1i
+#30000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#35000000
+1!
+0"
+0$
+1'
+1,
+0-
+0/
+12
+07
+1:
+1?
+0@
+0B
+1C
+0D
+1E
+0F
+1K
+1Q
+1T
+0U
+1V
+1W
+1X
+1]
+1c
+1i
+#40000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#45000000
+1!
+0%
+1(
+1,
+00
+13
+08
+1;
+1?
+1E
+0H
+1I
+0J
+1K
+0L
+1Q
+1W
+1Z
+0[
+1\
+1]
+1^
+1c
+1i
+#50000000
+0!
+1"
+0,
+1-
+0?
+1@
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#55000000
+1!
+1$
+0&
+1)
+1,
+1/
+01
+14
+17
+09
+1<
+1?
+1B
+0C
+1D
+1E
+1F
+1K
+0N
+1O
+0P
+1Q
+0R
+1W
+1]
+1`
+0a
+1b
+1c
+1d
+1i
+#60000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#65000000
+1!
+1%
+0'
+1*
+1,
+10
+02
+15
+18
+0:
+1=
+1?
+1E
+1H
+0I
+1J
+1K
+1L
+1Q
+0T
+1U
+0V
+1W
+0X
+1]
+1c
+1f
+0g
+1h
+1i
+1j
+#70000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#75000000
+1!
+1&
+0(
+1+
+1,
+11
+03
+16
+19
+0;
+1>
+1?
+1E
+1K
+1N
+0O
+1P
+1Q
+1R
+1W
+0Z
+1[
+0\
+1]
+0^
+1c
+1i
+1l
+0m
+1n
+#80000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#85000000
+1!
+1'
+0)
+1,
+12
+04
+1:
+0<
+1?
+1E
+1K
+1Q
+1T
+0U
+1V
+1W
+1X
+1]
+0`
+1a
+0b
+1c
+0d
+1i
+#90000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#95000000
+1!
+1(
+0*
+1,
+13
+05
+1;
+0=
+1?
+1E
+1K
+1Q
+1W
+1Z
+0[
+1\
+1]
+1^
+1c
+0f
+1g
+0h
+1i
+0j
+#100000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#105000000
+1!
+1)
+0+
+1,
+14
+06
+1<
+0>
+1?
+1E
+1K
+1Q
+1W
+1]
+1`
+0a
+1b
+1c
+1d
+1i
+0l
+1m
+0n
+#110000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#115000000
+1!
+1*
+1,
+15
+1=
+1?
+1E
+1K
+1Q
+1W
+1]
+1c
+1f
+0g
+1h
+1i
+1j
+#120000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#125000000
+1!
+1+
+1,
+16
+1>
+1?
+1E
+1K
+1Q
+1W
+1]
+1c
+1i
+1l
+0m
+1n
+#130000000
+0!
+0,
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+#135000000
+1!
+1,
+1?
+1E
+1K
+1Q
+1W
+1]
+1c
+1i
+#140000000
+0!
+1#
+0,
+1.
+0?
+1A
+0E
+1G
+0K
+1M
+0Q
+1S
+0W
+1Y
+0]
+1_
+0c
+1e
+0i
+1k
+#145000000
+1!
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+1,
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+1?
+0B
+1C
+0D
+1E
+0F
+0H
+1I
+0J
+1K
+0L
+0N
+1O
+0P
+1Q
+0R
+0T
+1U
+0V
+1W
+0X
+0Z
+1[
+0\
+1]
+0^
+0`
+1a
+0b
+1c
+0d
+0f
+1g
+0h
+1i
+0j
+0l
+1m
+0n
+#150000000
