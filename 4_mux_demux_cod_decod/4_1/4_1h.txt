@@ -1,0 +1,15 @@
+Ja es ist möglich. 
+
+wähle bei einem 4to1 Mux.
+
+s0 <= A
+s1 <= B or C
+
+i0 <= "000";
+i1 <= "000";
+i2 <= "000";
+i3 <= "111";
+
+
+dann gibt dieser Mux immer 1 aus wenn A und (B oder C) gilt. 
+was der funktion Y entspricht.

@@ -1,0 +1,68 @@
+#!/bin/bash
+
+for var in "$@"
+do
+	
+	# 1. Syntaxanalyse
+	ghdl -s $var
+	status=$?
+	if [[ $status -eq 0 ]]
+	then
+		echo "Syntax-Check OK"
+	else
+	    	echo "Syntax-Check failed"
+    		break
+    	fi
+    	
+    	# 2. Analyse
+    	ghdl -a $var
+    	status=$?
+    	if [[ $status -eq 0 ]]
+    	then
+    		echo "Analyse OK"
+    	else
+    		echo "Analyse failed"
+   	 	break
+   	fi
+    	
+    	# name des entity aus der datei filtern
+    	name=`grep -o -P '(?<=entity ).*(?= is)' $var`
+    	
+    	# 3. Build
+    	ghdl -e $name
+    	status=$?
+    	if [[ $status -eq 0 ]]
+    	then
+    		echo "Build OK"
+    	else
+    		echo "Build failed"
+		break
+	fi
+	
+	#erstelle dateiname der VCD-Datei
+	vcdName=$name".vcd"
+	
+	# 4. VCD-Dump
+	ghdl -r $name --vcd=$vcdName
+    	status=$?
+    	if [[ $status -eq 0 ]]
+   	then
+   	 	echo "VCD-DUMP OK"
+   	else
+    		echo "VCD-DUMP failed"
+		break
+   	fi
+   	
+   	# 5.starting GTKWave
+    	gtkwave $vcdName
+    	status=$?
+    	if [[ $status -eq 0 ]]
+    	then
+    		echo "Starting GTKWave OK"
+    	else
+    		echo "Starting GTKWave failed"
+		break
+	fi
+done
+   
+   

@@ -1,0 +1,379 @@
+$date
+  Mon Sep 21 13:15:23 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module multiplex8to1_tb $end
+$var reg 1 ! s0 $end
+$var reg 1 " s1 $end
+$var reg 1 # s2 $end
+$var reg 3 $ y[2:0] $end
+$var reg 3 % i0[2:0] $end
+$var reg 3 & i1[2:0] $end
+$var reg 3 ' i2[2:0] $end
+$var reg 3 ( i3[2:0] $end
+$var reg 3 ) i4[2:0] $end
+$var reg 3 * i5[2:0] $end
+$var reg 3 + i6[2:0] $end
+$var reg 3 , i7[2:0] $end
+$scope module vierportmp $end
+$var reg 3 - i0[2:0] $end
+$var reg 3 . i1[2:0] $end
+$var reg 3 / i2[2:0] $end
+$var reg 3 0 i3[2:0] $end
+$var reg 3 1 i4[2:0] $end
+$var reg 3 2 i5[2:0] $end
+$var reg 3 3 i6[2:0] $end
+$var reg 3 4 i7[2:0] $end
+$var reg 1 5 s0 $end
+$var reg 1 6 s1 $end
+$var reg 1 7 s2 $end
+$var reg 3 8 y[2:0] $end
+$var reg 3 9 y1[2:0] $end
+$var reg 3 : y2[2:0] $end
+$scope module mux1 $end
+$var reg 3 ; i0[2:0] $end
+$var reg 3 < i1[2:0] $end
+$var reg 3 = i2[2:0] $end
+$var reg 3 > i3[2:0] $end
+$var reg 1 ? s0 $end
+$var reg 1 @ s1 $end
+$var reg 3 A y[2:0] $end
+$var reg 1 B x0 $end
+$var reg 1 C x1 $end
+$var reg 1 D x2 $end
+$var reg 1 E x3 $end
+$var reg 1 F s1not $end
+$var reg 1 G s0not $end
+$scope module not0 $end
+$var reg 1 H input1 $end
+$var reg 1 I not_result $end
+$upscope $end
+$scope module not1 $end
+$var reg 1 J input1 $end
+$var reg 1 K not_result $end
+$upscope $end
+$scope module and0 $end
+$var reg 1 L input1 $end
+$var reg 1 M input2 $end
+$var reg 1 N and_result $end
+$var reg 1 O and_gate $end
+$upscope $end
+$scope module and1 $end
+$var reg 1 P input1 $end
+$var reg 1 Q input2 $end
+$var reg 1 R and_result $end
+$var reg 1 S and_gate $end
+$upscope $end
+$scope module and2 $end
+$var reg 1 T input1 $end
+$var reg 1 U input2 $end
+$var reg 1 V and_result $end
+$var reg 1 W and_gate $end
+$upscope $end
+$scope module and3 $end
+$var reg 1 X input1 $end
+$var reg 1 Y input2 $end
+$var reg 1 Z and_result $end
+$var reg 1 [ and_gate $end
+$upscope $end
+$upscope $end
+$scope module mux2 $end
+$var reg 3 \ i0[2:0] $end
+$var reg 3 ] i1[2:0] $end
+$var reg 3 ^ i2[2:0] $end
+$var reg 3 _ i3[2:0] $end
+$var reg 1 ` s0 $end
+$var reg 1 a s1 $end
+$var reg 3 b y[2:0] $end
+$var reg 1 c x0 $end
+$var reg 1 d x1 $end
+$var reg 1 e x2 $end
+$var reg 1 f x3 $end
+$var reg 1 g s1not $end
+$var reg 1 h s0not $end
+$scope module not0 $end
+$var reg 1 i input1 $end
+$var reg 1 j not_result $end
+$upscope $end
+$scope module not1 $end
+$var reg 1 k input1 $end
+$var reg 1 l not_result $end
+$upscope $end
+$scope module and0 $end
+$var reg 1 m input1 $end
+$var reg 1 n input2 $end
+$var reg 1 o and_result $end
+$var reg 1 p and_gate $end
+$upscope $end
+$scope module and1 $end
+$var reg 1 q input1 $end
+$var reg 1 r input2 $end
+$var reg 1 s and_result $end
+$var reg 1 t and_gate $end
+$upscope $end
+$scope module and2 $end
+$var reg 1 u input1 $end
+$var reg 1 v input2 $end
+$var reg 1 w and_result $end
+$var reg 1 x and_gate $end
+$upscope $end
+$scope module and3 $end
+$var reg 1 y input1 $end
+$var reg 1 z input2 $end
+$var reg 1 { and_result $end
+$var reg 1 | and_gate $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+b000 $
+b000 %
+b000 &
+b000 '
+b000 (
+b000 )
+b111 *
+b111 +
+b111 ,
+b000 -
+b000 .
+b000 /
+b000 0
+b000 1
+b111 2
+b111 3
+b111 4
+05
+06
+07
+b000 8
+b000 9
+b000 :
+b000 ;
+b000 <
+b000 =
+b000 >
+0?
+0@
+b000 A
+1B
+0C
+0D
+0E
+1F
+1G
+0H
+1I
+0J
+1K
+1L
+1M
+1N
+1O
+0P
+1Q
+0R
+0S
+1T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+b000 \
+b111 ]
+b111 ^
+b111 _
+0`
+0a
+b000 b
+1c
+0d
+0e
+0f
+1g
+1h
+0i
+1j
+0k
+1l
+1m
+1n
+1o
+1p
+0q
+1r
+0s
+0t
+1u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+#10000000
+1!
+1"
+1#
+b111 $
+15
+16
+17
+b111 8
+b111 :
+1?
+1@
+0B
+0C
+0D
+1E
+0F
+0G
+1H
+0I
+1J
+0K
+0L
+0M
+0N
+0O
+1P
+0Q
+0R
+0S
+0T
+1U
+0V
+0W
+1X
+1Y
+1Z
+1[
+1`
+1a
+b111 b
+0c
+0d
+0e
+1f
+0g
+0h
+1i
+0j
+1k
+0l
+0m
+0n
+0o
+0p
+1q
+0r
+0s
+0t
+0u
+1v
+0w
+0x
+1y
+1z
+1{
+1|
+#20000000
+0!
+05
+0?
+1D
+0E
+1G
+0H
+1I
+1L
+0P
+1T
+1V
+1W
+0X
+0Z
+0[
+0`
+1e
+0f
+1h
+0i
+1j
+1m
+0q
+1u
+1w
+1x
+0y
+0{
+0|
+#30000000
+1!
+0"
+15
+06
+1?
+0@
+1C
+0D
+1F
+0G
+1H
+0I
+0J
+1K
+0L
+1M
+1P
+1Q
+1R
+1S
+0T
+0U
+0V
+0W
+1X
+0Y
+1`
+0a
+1d
+0e
+1g
+0h
+1i
+0j
+0k
+1l
+0m
+1n
+1q
+1r
+1s
+1t
+0u
+0v
+0w
+0x
+1y
+0z
+#40000000
