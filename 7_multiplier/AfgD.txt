@@ -1,0 +1,7 @@
+Beim Add-Shift-Multiplizierwerk (ASM) wird, im gegensatz zum Parallel-Multiplizierwerk (PM), nur einen Addiererwerk benutzt, währenddessen der PM mehrere Reihen an Addierern hat. Je nachdem welcher Adder benutzt wird kann das ASM von der Geschwindigkeit variieren. Im endeffekt benutzen beide Multiplizierer die slebe Methode, nur das der PM diese fest verdrahtet hat und das ASM mit Schieberegistern arbeiten.  
+
+Vorteile von einem Add-Shift Multiplizierwerk und Nachteile des Parallel-Multiplizierwerk:
+1. Der Add-Shift Multipliezierwerk benutzt weniger Hardware.
+
+Nachteile von einem Add-Shift Multiplizierwerk und Vorteile des Parallel-Multiplizierwerk:
+1. Der Parallel-Mult. ist schneller als das Add-shift Mult.

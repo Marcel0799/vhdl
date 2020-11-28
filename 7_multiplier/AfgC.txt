@@ -1,0 +1,8 @@
+Der "add shift"-multiplikator arbeitet in Zyklus. Sollen zwei 4-bit Wörter addiert werden, dann müssen 4 Zyklus durchlaufen werden. Die erste Zahl, der Multiplicand(A) und die zweite Zahl, der Multiplier(B), werden in Schieberegister geladen. A wird in jedem Zyklus nach links geschoben, wobei das Schieben in einem 8-Bit Schieberegister stattfinden, so das die linkeste bits nichts rausfallen, außerdem wird von rechts mit einer null aufgefüllt. Der Multiplier, B, wird in jedem Zyklus, in einem 4-Bit Schieberegister, nach rechts geschoben, und von links mit einer 0 aufgefüllt, so das der rechteste Bit herausfällt. 
+Außerdem gibt es noch das Produkt, welcher ein 8-bit-Wert ist, welches am Ende des letzen Zyklus das Ergebnis enthalten soll. Wie das geschieht erklärt der nächste Ablauf.  
+
+In jedem Zyklus findet folgendes folgendes statt:
+1. Wenn das rechteste Bit von B (RB) eins entspricht, so wird der aktuelle Wert im A Register mit dem aktuellen Produkt addiert. 
+   Wenn aber RB = 0, dann wird nichts addiert.
+2. A wird nach links geschoben.
+3. B wird nach rechts geschoben. 
