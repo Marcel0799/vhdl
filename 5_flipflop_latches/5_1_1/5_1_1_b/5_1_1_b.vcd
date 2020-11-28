@@ -1,0 +1,93 @@
+$date
+  Mon Sep 28 12:54:12 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module rs_tb $end
+$var reg 1 ! r $end
+$var reg 1 " s $end
+$var reg 1 # q $end
+$var reg 1 $ nq $end
+$scope module flipflop $end
+$var reg 1 % r $end
+$var reg 1 & s $end
+$var reg 1 ' q $end
+$var reg 1 ( nq $end
+$var reg 1 ) n1 $end
+$var reg 1 * n2 $end
+$scope module nand1 $end
+$var reg 1 + input1 $end
+$var reg 1 , input2 $end
+$var reg 1 - nand_result $end
+$var reg 1 . nand_gate $end
+$upscope $end
+$scope module nand2 $end
+$var reg 1 / input1 $end
+$var reg 1 0 input2 $end
+$var reg 1 1 nand_result $end
+$var reg 1 2 nand_gate $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+1#
+1$
+0%
+0&
+1'
+1(
+1)
+1*
+0+
+1,
+1-
+0.
+0/
+10
+11
+02
+#10000000
+1!
+0#
+1%
+0'
+0)
+1+
+0-
+1.
+00
+#20000000
+0!
+1"
+1#
+0$
+0%
+1&
+1'
+0(
+1)
+0*
+0+
+0,
+1-
+0.
+1/
+10
+01
+12
+#30000000
+1!
+1%
+1+
+#40000000

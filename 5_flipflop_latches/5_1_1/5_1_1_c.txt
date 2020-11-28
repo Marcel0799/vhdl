@@ -1,0 +1,2 @@
+positiv: kippt und flimmert nicht
+negativ: Verhalten hängt von Schaltzeit der beiden Gatter ab

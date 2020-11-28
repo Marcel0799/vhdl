@@ -1,0 +1,5 @@
+Für das zurücksetzen in den Startzustand werde ich an den Flipflop einen eigenen Reset Eingang hinzufügen. 
+
+Bei einem Asynchronen Reset würde man nun so vorgehen. Das immer wenn am Reset-Eingang=1, wird der Flipflop sofort in den ausgangszustand zurückgestzt.
+
+Bei einem Synchronen Reset läuft das anders. Ist der Reset-Eingang=1, wird der Flipflop bei der nächsten postitiven Flanke der Clock, zurückgesetzt.

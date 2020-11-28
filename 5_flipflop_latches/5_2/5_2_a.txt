@@ -1,0 +1,5 @@
+Um mit den Bezeichnung nicht durcheinander zu kommen werde ich zu den Anschlüssen des Masters z.B. d-Master sagen. Die Anschlüsse des Slaves sind dann z.B. d-Slave und die ganz normalen Anschlüsse des Flipflops sind dann einfach nur clk , d, q, notQ.
+
+Ist CLK=0 so ist CLK-Master=1, dass bedeutet das jede Eingabe von d, über d-master, immer sofoert in Master gespeichert wird, bzw. q-master entspricht immer d. Daraus folgt, solange CLK=0, gilt N1=d. 
+
+Sobald CLK=1, entspricht N1 dem letzten Zustand des Masters, da dieser seinen Zustand nicht mehr ändern kann, da clk-Master=0. Nun ist aber clk-slave=1. Das heist der Slave speichert über d-slave den Zustand von N1, also den letzen Zustand des Masters. Q entspricht deshalb, bei Eingabe eines Taktsignals, dem letzen Zustand von D, vor dem Taktsignal.  

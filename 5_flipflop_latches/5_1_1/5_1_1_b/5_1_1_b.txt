@@ -1,0 +1,4 @@
+Die Eingabe r=0 s=0 setzt den RS_latch auf seine Ausgangsposition mit q=0 und nq=0.
+Die Eingabe r=1 s=0 resetted den RS_latch, dies bedeutet das eine '0' gespeicht wird, also q=0 und nq=1.
+Die Eingabe r=0 s=1 setzt den RS_latch, dies bedeutet das eine '1' gespeichert wird, also q=1 und nq=0.
+Die Eingabe r=1 s=1 veränder nicht die Ausgabe, sond der alte Wert wird weiter Ausgegeben, also in dem Fall q=1 und nq=0.

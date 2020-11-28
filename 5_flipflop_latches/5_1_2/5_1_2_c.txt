@@ -1,0 +1,5 @@
+Positiv: 
+- Über das Clock signal könne viele D-Latches schneller aktualisiert werden.
+- Durch das D Signal können die Fehlerzustände r=0 s=0 (bei unsererem RS-Latch, bei normalen RS-Latch R=1 S=1) vermieden werden.
+
+Negativ: etwas mehr Produktion und Zeitaufwand. 
