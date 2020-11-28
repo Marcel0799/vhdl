@@ -1,0 +1,21 @@
+Beschreibung der Schritte von Marcel Bienia(209744):
+
+1. 
+$ ghdl -s test_file.vhdl
+Dieser Befehl überprüft rein ob die test_file.vhdl syntaktisch korrekt ist. Der Code wird nicht kompiliert. Erfolgt nach ausführen des Befehls keine Ausgabe, so ist der Code syntaktisch korrekt. Sollte ein syntaktischer Fehler vorliegen, so wird dieser Fehler mit der entsprechenden Zeilennummer ausgegeben. 
+
+2.
+$ ghdl -a test_file.vhdl
+Dieser Befehl analysiert den Code und liest in erstmals auch sematisch ein. Aus dem Dokument werden die Schaltungen ausgelesen und es wird eine interne Repräsentation davon gespeichert.
+
+3. 
+$ ghdl -e test_file
+Aus der in 2. erstellten internen Repräsentation kann jetzt ein Schaltkreis oder Prozess in Maschinencode übersetzt werden. Deswegen wird im Befehl auch keine Datei mehr angegeben sondern ein vorhere analysierter Schaltkreis oder Prozess.
+
+4. 
+$ gdhl -r test_file --vcd=testbench.vcd 
+Der Schaltkreis bzw. Der Prozess "test_file" wird erstmals ausgeführt und es wird eine testbench.vcd file erstellt, welche gleich mit gtkwave eingelesen werden kann. 
+
+5.
+$ gtkwave testbench.vcd
+Es wird gtkwave gestartet und man kann die Simulation von test_file Schaltkreis / Prozess begutachten. 
