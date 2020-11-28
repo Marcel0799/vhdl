@@ -1,0 +1,28 @@
+3.3 a) 
+Rechenbeispiel 1:
+A: a(0) = 1, a(1) = 0 , a(2) = 0 , a(3) = 0 ;
+B: b(0) = 1, b(1) = 0 , b(2) = 0 , b(3) = 0 ;
+g: g(0) = 1, g(1) = 0 , g(2) = 0 , g(3) = 0 ;
+p: p(0) = 0, p(1) = 0 , p(2) = 0 , p(3) = 0 ;
+C: Cin = 0 , C(0) = 1, C(1) = 0 , C(2) = 0 , C(3) = 0 ;
+S: s(0) = 0, s(1) = 1 , s(2) = 0 , s(3) = 0 ;
+
+Rechenbeispiel 2:
+A: a(0) = 1, a(1) = 0 , a(2) = 0 , a(3) = 0 ;
+B: b(0) = 0, b(1) = 1 , b(2) = 0 , b(3) = 0 ;
+g: g(0) = 0, g(1) = 0 , g(2) = 0 , g(3) = 0 ;
+p: p(0) = 1, p(1) = 1 , p(2) = 0 , p(3) = 0 ;
+C: Cin = 0 , C(0) = 0, C(1) = 0 , C(2) = 0 , C(3) = 0 ;
+S: s(0) = 1, s(1) = 1 , s(2) = 0 , s(3) = 0 ;
+
+3.3 c) 
+ Pro-Argumente des CLA und Con-Argumente des RCA:
+ 	- der CLA ist deutlich schneller als der RCA da er parrallel rechnen kann.
+ 	- der CLA hat eine größere Effizienz als der RCA.
+ 	- der CLA verbraucht weniger Energie als der RCA.
+ Con-Argumente des CLA und Pro-Argumente des RCA:
+	- der RCA ist günstiger in der Produktion als der CLA.
+	- der RCA hat eine weniger komplexe Schaltung als der CLA.	
+ 	
+3.3 d)
+ Online habe ich gefunden das die meisten moderenen Desktop-CPU's, Ripple-Carry-Adder nutzen.
